@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Cassowary::CassowaryPackageTests::ProductTarget" /* CassowaryPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_68 /* Build configuration list for PBXAggregateTarget "CassowaryPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_71 /* PBXTargetDependency */,
+			);
+			name = CassowaryPackageTests;
+			productName = CassowaryPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		962577B020CB44EC008451B1 /* Comprehensive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962577AF20CB44EC008451B1 /* Comprehensive.swift */; };
+		OBJ_44 /* CassowaryDebugDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* CassowaryDebugDescription.swift */; };
+		OBJ_45 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Constraint.swift */; };
+		OBJ_46 /* ConstraintOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ConstraintOperators.swift */; };
+		OBJ_47 /* ConstraintOperatorsCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ConstraintOperatorsCGFloat.swift */; };
+		OBJ_48 /* ConstraintOperatorsInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ConstraintOperatorsInt.swift */; };
+		OBJ_49 /* Double+Epsilon.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Double+Epsilon.swift */; };
+		OBJ_50 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Errors.swift */; };
+		OBJ_51 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Expression.swift */; };
+		OBJ_52 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* OrderedDictionary.swift */; };
+		OBJ_53 /* RelationalOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* RelationalOperator.swift */; };
+		OBJ_54 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Row.swift */; };
+		OBJ_55 /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Solver.swift */; };
+		OBJ_56 /* Strength.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Strength.swift */; };
+		OBJ_57 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Symbol.swift */; };
+		OBJ_58 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Term.swift */; };
+		OBJ_59 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Variable.swift */; };
+		OBJ_66 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_77 /* AssertionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionHelpers.swift */; };
+		OBJ_78 /* CassowaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* CassowaryTests.swift */; };
+		OBJ_79 /* ConstraintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ConstraintTests.swift */; };
+		OBJ_80 /* Double+EpsilonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Double+EpsilonTests.swift */; };
+		OBJ_81 /* ExpressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ExpressionTests.swift */; };
+		OBJ_82 /* TermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* TermTests.swift */; };
+		OBJ_83 /* VariableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* VariableTests.swift */; };
+		OBJ_85 /* Cassowary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Cassowary::Cassowary::Product" /* Cassowary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		967FE13320CAB6E3006934A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Cassowary::Cassowary";
+			remoteInfo = Cassowary;
+		};
+		967FE13420CAB6E4006934A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Cassowary::CassowaryTests";
+			remoteInfo = CassowaryTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		962577AF20CB44EC008451B1 /* Comprehensive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comprehensive.swift; sourceTree = "<group>"; };
+		"Cassowary::Cassowary::Product" /* Cassowary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cassowary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Cassowary::CassowaryTests::Product" /* CassowaryTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CassowaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Constraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		OBJ_11 /* ConstraintOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintOperators.swift; sourceTree = "<group>"; };
+		OBJ_12 /* ConstraintOperatorsCGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintOperatorsCGFloat.swift; sourceTree = "<group>"; };
+		OBJ_13 /* ConstraintOperatorsInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintOperatorsInt.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Double+Epsilon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Epsilon.swift"; sourceTree = "<group>"; };
+		OBJ_15 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		OBJ_17 /* OrderedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
+		OBJ_18 /* RelationalOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationalOperator.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Strength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strength.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Term.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		OBJ_27 /* AssertionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionHelpers.swift; sourceTree = "<group>"; };
+		OBJ_28 /* CassowaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassowaryTests.swift; sourceTree = "<group>"; };
+		OBJ_29 /* ConstraintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintTests.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Double+EpsilonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+EpsilonTests.swift"; sourceTree = "<group>"; };
+		OBJ_31 /* ExpressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionTests.swift; sourceTree = "<group>"; };
+		OBJ_32 /* TermTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermTests.swift; sourceTree = "<group>"; };
+		OBJ_33 /* VariableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableTests.swift; sourceTree = "<group>"; };
+		OBJ_34 /* sourcery */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sourcery; sourceTree = SOURCE_ROOT; };
+		OBJ_35 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = SOURCE_ROOT; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* CassowaryDebugDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassowaryDebugDescription.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_85 /* Cassowary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_25 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* CassowaryTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_26 /* CassowaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* AssertionHelpers.swift */,
+				OBJ_28 /* CassowaryTests.swift */,
+				OBJ_29 /* ConstraintTests.swift */,
+				OBJ_30 /* Double+EpsilonTests.swift */,
+				OBJ_31 /* ExpressionTests.swift */,
+				OBJ_32 /* TermTests.swift */,
+				OBJ_33 /* VariableTests.swift */,
+				962577AF20CB44EC008451B1 /* Comprehensive.swift */,
+			);
+			name = CassowaryTests;
+			path = Tests/CassowaryTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Cassowary::Cassowary::Product" /* Cassowary.framework */,
+				"Cassowary::CassowaryTests::Product" /* CassowaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_25 /* Tests */,
+				OBJ_34 /* sourcery */,
+				OBJ_35 /* scripts */,
+				OBJ_36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Cassowary */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Cassowary */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* CassowaryDebugDescription.swift */,
+				OBJ_10 /* Constraint.swift */,
+				OBJ_11 /* ConstraintOperators.swift */,
+				OBJ_12 /* ConstraintOperatorsCGFloat.swift */,
+				OBJ_13 /* ConstraintOperatorsInt.swift */,
+				OBJ_14 /* Double+Epsilon.swift */,
+				OBJ_15 /* Errors.swift */,
+				OBJ_16 /* Expression.swift */,
+				OBJ_17 /* OrderedDictionary.swift */,
+				OBJ_18 /* RelationalOperator.swift */,
+				OBJ_19 /* Row.swift */,
+				OBJ_20 /* Solver.swift */,
+				OBJ_21 /* Strength.swift */,
+				OBJ_22 /* Symbol.swift */,
+				OBJ_23 /* Term.swift */,
+				OBJ_24 /* Variable.swift */,
+			);
+			name = Cassowary;
+			path = Sources/Cassowary;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Cassowary::Cassowary" /* Cassowary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_40 /* Build configuration list for PBXNativeTarget "Cassowary" */;
+			buildPhases = (
+				OBJ_43 /* Sources */,
+				OBJ_60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cassowary;
+			productName = Cassowary;
+			productReference = "Cassowary::Cassowary::Product" /* Cassowary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Cassowary::CassowaryTests" /* CassowaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_73 /* Build configuration list for PBXNativeTarget "CassowaryTests" */;
+			buildPhases = (
+				OBJ_76 /* Sources */,
+				OBJ_84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_86 /* PBXTargetDependency */,
+			);
+			name = CassowaryTests;
+			productName = CassowaryTests;
+			productReference = "Cassowary::CassowaryTests::Product" /* CassowaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Cassowary::SwiftPMPackageDescription" /* CassowaryPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "CassowaryPackageDescription" */;
+			buildPhases = (
+				OBJ_65 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CassowaryPackageDescription;
+			productName = CassowaryPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Cassowary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Cassowary::Cassowary" /* Cassowary */,
+				"Cassowary::SwiftPMPackageDescription" /* CassowaryPackageDescription */,
+				"Cassowary::CassowaryPackageTests::ProductTarget" /* CassowaryPackageTests */,
+				"Cassowary::CassowaryTests" /* CassowaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_44 /* CassowaryDebugDescription.swift in Sources */,
+				OBJ_45 /* Constraint.swift in Sources */,
+				OBJ_46 /* ConstraintOperators.swift in Sources */,
+				OBJ_47 /* ConstraintOperatorsCGFloat.swift in Sources */,
+				OBJ_48 /* ConstraintOperatorsInt.swift in Sources */,
+				OBJ_49 /* Double+Epsilon.swift in Sources */,
+				OBJ_50 /* Errors.swift in Sources */,
+				OBJ_51 /* Expression.swift in Sources */,
+				OBJ_52 /* OrderedDictionary.swift in Sources */,
+				OBJ_53 /* RelationalOperator.swift in Sources */,
+				OBJ_54 /* Row.swift in Sources */,
+				OBJ_55 /* Solver.swift in Sources */,
+				OBJ_56 /* Strength.swift in Sources */,
+				OBJ_57 /* Symbol.swift in Sources */,
+				OBJ_58 /* Term.swift in Sources */,
+				OBJ_59 /* Variable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_66 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_77 /* AssertionHelpers.swift in Sources */,
+				OBJ_78 /* CassowaryTests.swift in Sources */,
+				OBJ_79 /* ConstraintTests.swift in Sources */,
+				OBJ_80 /* Double+EpsilonTests.swift in Sources */,
+				OBJ_81 /* ExpressionTests.swift in Sources */,
+				OBJ_82 /* TermTests.swift in Sources */,
+				962577B020CB44EC008451B1 /* Comprehensive.swift in Sources */,
+				OBJ_83 /* VariableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Cassowary::CassowaryTests" /* CassowaryTests */;
+			targetProxy = 967FE13420CAB6E4006934A9 /* PBXContainerItemProxy */;
+		};
+		OBJ_86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Cassowary::Cassowary" /* Cassowary */;
+			targetProxy = 967FE13320CAB6E3006934A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cassowary.xcodeproj/Cassowary_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Cassowary;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Cassowary;
+			};
+			name = Debug;
+		};
+		OBJ_42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cassowary.xcodeproj/Cassowary_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Cassowary;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Cassowary;
+			};
+			name = Release;
+		};
+		OBJ_63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cassowary.xcodeproj/CassowaryTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CassowaryTests;
+			};
+			name = Debug;
+		};
+		OBJ_75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cassowary.xcodeproj/CassowaryTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CassowaryTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "Cassowary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_40 /* Build configuration list for PBXNativeTarget "Cassowary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_41 /* Debug */,
+				OBJ_42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_62 /* Build configuration list for PBXNativeTarget "CassowaryPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_63 /* Debug */,
+				OBJ_64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_68 /* Build configuration list for PBXAggregateTarget "CassowaryPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_69 /* Debug */,
+				OBJ_70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_73 /* Build configuration list for PBXNativeTarget "CassowaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_74 /* Debug */,
+				OBJ_75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

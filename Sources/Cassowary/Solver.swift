@@ -52,12 +52,14 @@ public class Solver {
 
     private var constraintDict = OrderedDictionary<Constraint, Tag>()
     private var rows = OrderedDictionary<Symbol, Row>()
-    private var variableSymbols = OrderedDictionary<Variable, Symbol>()
+    public private(set) var variableSymbols = OrderedDictionary<Variable, Symbol>()
     private var variableEditInfo = OrderedDictionary<Variable, EditInfo>()
     private var infeasibleRows = [Symbol]()
     private var objective = Row()
     private var artificial: Row?
-    
+
+    public var variables: [Variable] { return variableSymbols.keys }
+
     // MARK: Initializers
     
     public init() {

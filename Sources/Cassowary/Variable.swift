@@ -51,7 +51,7 @@ public class Variable: CustomStringConvertible {
     public var value: Double = 0.0
 
     public var description: String {
-        return "\(name)"
+        return "\(name)(\(value))"
     }
 
     public init(_ name: String) {

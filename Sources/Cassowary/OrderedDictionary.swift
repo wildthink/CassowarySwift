@@ -37,7 +37,7 @@
 import Foundation
 
 public struct OrderedDictionary<KeyType: Hashable, ValueType> {
-    var keys = [KeyType]()
+    public internal(set) var keys = [KeyType]()
     fileprivate var dictionary = [KeyType: ValueType]()
 
     public var count: Int { return keys.count }

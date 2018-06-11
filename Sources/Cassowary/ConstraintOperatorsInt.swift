@@ -255,7 +255,8 @@ public func modifyStrength(_ constraint: Constraint, _ strength: Int) -> Constra
     return Constraint(other: constraint, strength: Double(strength))
 }
 
-public func modifyStrength(_ strength: Int, _ constraint: Constraint) -> Constraint {
-    return modifyStrength(strength, constraint)
-}
+// jmj - Warning: All paths through this function will call itself
+//public func modifyStrength(_ strength: Int, _ constraint: Constraint) -> Constraint {
+//    return modifyStrength(strength, constraint)
+//}
 
